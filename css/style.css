@@ -1,0 +1,199 @@
+:root {
+    --dark: #2E2F42;
+    --primary-brand: #4D5AE5;
+    --text: #434455;
+    --accent: #E7E9FC;
+    --white-color: #FFFFFF;
+    --light: #F4F4FD;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    line-height: 1;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    font-weight: 400;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+/* header */
+.logo-web {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--primary-brand);
+}
+.logo-stydio {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: var(--dark);
+}
+.nav-link {
+    height: 24px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+.nav-link:hover {
+    color: var(--primary-brand);
+}
+.nav-link:focus {
+    color: var(--primary-brand);
+}
+.nav-mail,
+.nav-tel {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+.nav-mail:hover,
+.nav-mail:focus {
+    color: var(--primary-brand);
+}
+.nav-tel:hover,
+.nav-tel:focus {
+    color: var(--primary-brand);
+}
+/* main webstudio */
+.main-section {
+    background-color: var(--dark);
+}
+.title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: var(--white-color);
+}
+.button {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.19;
+    letter-spacing: 0.04em;
+    color: var(--white-color);
+    background-color: var(--primary-brand);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.button:hover {
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.button:focus {
+    background: #404BBF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.visually-hidden {
+    color: rgba(0, 0, 0, 0);
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+.heading {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+.subtitle {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+}
+.subject {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 1.1;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--dark);
+}
+/* main portfolio */
+.btn-portfolio {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.04em;
+    color: var(--primary-brand);
+    background-color: var(--light);
+    cursor: pointer;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+}
+.item {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--dark);
+}
+.text-item {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--text);
+
+}
+.btn-portfolio:hover {
+    color: var(--white-color);
+    background: var(--primary-brand);
+    border-radius: 4px;
+}
+.btn-portfolio:focus {
+    color: var(--white-color);
+    background: var(--primary-brand);
+    border-radius: 4px;
+}
+/* footer */
+.footer {
+    background: var(--dark);
+}
+.footer-web {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--primary-brand);
+}
+.footer-studio {
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--white-color);
+}
+.footer-txt {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--accent);
+}
