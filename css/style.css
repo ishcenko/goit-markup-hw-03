@@ -30,6 +30,8 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-between ;
+    width: 1158px;
+    height: 72px;
 }
 .nav-item-link {
     display: flex;
@@ -41,6 +43,8 @@ ul {
     height: 24px;
     display: flex;
     align-items: center;
+    margin-left: 156px;
+    margin-right: 77px;
 }
 .logo-web {
     font-family: 'Raleway';
@@ -71,6 +75,7 @@ ul {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark);
+    margin-right: 40px;
 }
 .nav-link:hover {
     color: var(--primary-brand);
@@ -91,10 +96,12 @@ ul {
 .nav-mail {
     width: 153px;
     height: 24px;
+    margin-right: 40px;
 }
 .nav-tel {
     width: 151px;
     height: 24px;
+    margin-right: 100px;
 }
 .nav-mail:hover,
 .nav-mail:focus {
