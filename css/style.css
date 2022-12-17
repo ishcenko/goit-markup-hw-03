@@ -21,7 +21,27 @@ a {
 ul {
     list-style: none;
 }
+.container {
+    width: 1158px;
+    margin: 0 auto;
+}
 /* header */
+.navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between ;
+}
+.nav-item-link {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    width: 115px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+}
 .logo-web {
     font-family: 'Raleway';
     font-weight: 700;
@@ -40,8 +60,12 @@ ul {
     text-transform: uppercase;
     color: var(--dark);
 }
-.nav-link {
+.nav-items {
+    width: 261px;
     height: 24px;
+    display: flex;
+}
+.nav-link {
     font-weight: 600;
     font-size: 16px;
     line-height: 1.5;
@@ -54,12 +78,23 @@ ul {
 .nav-link:focus {
     color: var(--primary-brand);
 }
+.contact {
+    display: flex;
+}
 .nav-mail,
 .nav-tel {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text);
+}
+.nav-mail {
+    width: 153px;
+    height: 24px;
+}
+.nav-tel {
+    width: 151px;
+    height: 24px;
 }
 .nav-mail:hover,
 .nav-mail:focus {
