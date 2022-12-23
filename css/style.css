@@ -123,6 +123,7 @@ ul {
 }
 /* main webstudio */
 .section-title {
+    min-width: 1440px;
     height: 603px;
     background-color: var(--dark);
 }
