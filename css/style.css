@@ -24,7 +24,7 @@ ul {
     list-style: none;
 }
 .container {
-    width: 1128px;
+    width: 1158px;
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -60,7 +60,6 @@ img {
 }
 .nav-item-link {
     display: flex;
-    /* margin-right: auto; */
 }
 .logo {
     width: 115px;
@@ -96,7 +95,6 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--dark);
-    margin: 35px;
 }
 .nav-link:hover {
     color: var(--primary-brand);
@@ -129,7 +127,6 @@ img {
 }
 /* main webstudio */
 .section-title {
-    min-width: 1440px;
     height: 603px;
     background-color: var(--dark);
 }
@@ -211,7 +208,6 @@ img {
 }
 .section-subject {
     padding-top: 120px;
-    height: 450px;
     padding-bottom: 120px;
     /* background: var(--bgd-color); */
 }
@@ -245,9 +241,7 @@ img {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-.conteiner-our {
-    /* margin: 120px; */
-}
+
 .subject-our-title {
     font-weight: 600;
     font-size: 36px;
@@ -264,7 +258,7 @@ img {
 .subject-our {
     display: flex;
     text-align: center;
-    padding-top: 120px;
+    margin-top: 120px;
     gap: 24px;
     font-weight: 600;
     font-size: 24px;
@@ -288,10 +282,8 @@ img {
     margin-top: 8px;
 }
 .section-portfolio {
-    padding-top: 72px;
-    /* background-color: aqua; */
+    padding-top: 96px;
     padding-bottom: 120px;
-    /* background: var(--bgd-color); */
 }
 .item-button {
     display: flex;
@@ -319,7 +311,6 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark);
-    margin-top: 32px;
 }
 .text-item {
     font-size: 16px;
@@ -361,20 +352,20 @@ img {
 .set-card > .img-card {
     flex-basis: calc(100% / 3);
 }
-.card-list {
-    /* margin-right: 16px; */
-}
+/* .card-list {
+    margin-right: 16px;
+} */
 .item-portfolio {
     font-weight: 600;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--dark);
-    padding-left: 16px;
+    /* padding-left: 16px; */
 }
-.text-item-portfolio {
+/* .text-item-portfolio {
     padding-left: 16px;
-}
+} */
 /* footer */
 .footer {
     background: var(--dark);
